@@ -1,0 +1,22 @@
+./violaJonesFaceDetectionNPP Starting....
+GPU Device 0: "Ampere" with compute capability 8.6
+
+NPP Library Version 11.3.3
+  CUDA Driver  Version: 12.6
+  CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+imagefaceDetectionNPP opened: <./Lena.pgm> successfully.
+Input directory: <./data/photography/GodzillaMinusOne.pgm
+Output directory: <./output/photography/GodzillaMinusOne_detected.pgm
+Cascade filter directory: <./haarcascade_frontalface_default.xml
+Loading cascade classifier...
+Cascade classifier loaded...
+Grayscale image loaded successfully.
+Grayscale image dimensions: 998 x 1411
+Face detection found 3 results.
+Time spent on detection: 0.728239119 seconds (728239119 nanoseconds)
+Face detection result #1: x=297, y=339, width=50, height=50
+Face detection result #2: x=752, y=396, width=51, height=51
+Face detection result #3: x=50, y=1131, width=90, height=90
+Saving output to: ./output/photography/GodzillaMinusOne_detected.pgm
+Image saved as: ./output/photography/GodzillaMinusOne_detected.pgm

@@ -1,0 +1,25 @@
+./violaJonesFaceDetectionNPP Starting....
+GPU Device 0: "Ampere" with compute capability 8.6
+
+NPP Library Version 11.3.3
+  CUDA Driver  Version: 12.6
+  CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+imagefaceDetectionNPP opened: <./Lena.pgm> successfully.
+Input directory: <./data/photography/StarWars.pgm
+Output directory: <./output/photography/StarWars_detected.pgm
+Cascade filter directory: <./haarcascade_frontalface_default.xml
+Loading cascade classifier...
+Cascade classifier loaded...
+Grayscale image loaded successfully.
+Grayscale image dimensions: 990 x 892
+Face detection found 6 results.
+Time spent on detection: 0.222968837 seconds (222968837 nanoseconds)
+Face detection result #1: x=342, y=699, width=50, height=50
+Face detection result #2: x=375, y=264, width=60, height=60
+Face detection result #3: x=642, y=335, width=67, height=67
+Face detection result #4: x=445, y=430, width=51, height=51
+Face detection result #5: x=485, y=49, width=98, height=98
+Face detection result #6: x=238, y=368, width=74, height=74
+Saving output to: ./output/photography/StarWars_detected.pgm
+Image saved as: ./output/photography/StarWars_detected.pgm

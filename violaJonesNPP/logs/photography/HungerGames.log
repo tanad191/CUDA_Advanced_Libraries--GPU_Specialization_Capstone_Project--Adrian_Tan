@@ -1,0 +1,21 @@
+./violaJonesFaceDetectionNPP Starting....
+GPU Device 0: "Ampere" with compute capability 8.6
+
+NPP Library Version 11.3.3
+  CUDA Driver  Version: 12.6
+  CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+imagefaceDetectionNPP opened: <./Lena.pgm> successfully.
+Input directory: <./data/photography/HungerGames.pgm
+Output directory: <./output/photography/HungerGames_detected.pgm
+Cascade filter directory: <./haarcascade_frontalface_default.xml
+Loading cascade classifier...
+Cascade classifier loaded...
+Grayscale image loaded successfully.
+Grayscale image dimensions: 1200 x 1527
+Face detection found 2 results.
+Time spent on detection: 0.523552357 seconds (523552357 nanoseconds)
+Face detection result #1: x=157, y=113, width=241, height=241
+Face detection result #2: x=607, y=166, width=269, height=269
+Saving output to: ./output/photography/HungerGames_detected.pgm
+Image saved as: ./output/photography/HungerGames_detected.pgm

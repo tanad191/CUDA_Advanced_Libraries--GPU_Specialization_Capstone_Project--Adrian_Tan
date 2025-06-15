@@ -1,0 +1,24 @@
+./violaJonesFaceDetectionNPP Starting....
+GPU Device 0: "Ampere" with compute capability 8.6
+
+NPP Library Version 11.3.3
+  CUDA Driver  Version: 12.6
+  CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+imagefaceDetectionNPP opened: <./Lena.pgm> successfully.
+Input directory: <./data/photography/ThePrincessBride.pgm
+Output directory: <./output/photography/ThePrincessBride_detected.pgm
+Cascade filter directory: <./haarcascade_frontalface_default.xml
+Loading cascade classifier...
+Cascade classifier loaded...
+Grayscale image loaded successfully.
+Grayscale image dimensions: 1023 x 557
+Face detection found 5 results.
+Time spent on detection: 0.345959687 seconds (345959687 nanoseconds)
+Face detection result #1: x=240, y=246, width=48, height=48
+Face detection result #2: x=177, y=48, width=101, height=101
+Face detection result #3: x=427, y=217, width=79, height=79
+Face detection result #4: x=598, y=438, width=60, height=60
+Face detection result #5: x=604, y=82, width=103, height=103
+Saving output to: ./output/photography/ThePrincessBride_detected.pgm
+Image saved as: ./output/photography/ThePrincessBride_detected.pgm

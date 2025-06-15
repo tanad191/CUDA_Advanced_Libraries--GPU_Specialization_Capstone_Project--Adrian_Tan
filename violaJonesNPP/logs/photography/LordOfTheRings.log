@@ -1,0 +1,29 @@
+./violaJonesFaceDetectionNPP Starting....
+GPU Device 0: "Ampere" with compute capability 8.6
+
+NPP Library Version 11.3.3
+  CUDA Driver  Version: 12.6
+  CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+imagefaceDetectionNPP opened: <./Lena.pgm> successfully.
+Input directory: <./data/photography/LordOfTheRings.pgm
+Output directory: <./output/photography/LordOfTheRings_detected.pgm
+Cascade filter directory: <./haarcascade_frontalface_default.xml
+Loading cascade classifier...
+Cascade classifier loaded...
+Grayscale image loaded successfully.
+Grayscale image dimensions: 2000 x 1000
+Face detection found 10 results.
+Time spent on detection: 0.928199783 seconds (928199783 nanoseconds)
+Face detection result #1: x=1670, y=360, width=34, height=34
+Face detection result #2: x=1681, y=537, width=33, height=33
+Face detection result #3: x=1488, y=662, width=50, height=50
+Face detection result #4: x=4, y=723, width=63, height=63
+Face detection result #5: x=1286, y=141, width=106, height=106
+Face detection result #6: x=319, y=148, width=278, height=278
+Face detection result #7: x=151, y=250, width=88, height=88
+Face detection result #8: x=1437, y=265, width=213, height=213
+Face detection result #9: x=1656, y=402, width=184, height=184
+Face detection result #10: x=1597, y=296, width=161, height=161
+Saving output to: ./output/photography/LordOfTheRings_detected.pgm
+Image saved as: ./output/photography/LordOfTheRings_detected.pgm

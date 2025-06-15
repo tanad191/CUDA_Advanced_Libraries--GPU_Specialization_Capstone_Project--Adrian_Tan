@@ -1,0 +1,35 @@
+./violaJonesFaceDetectionNPP Starting....
+GPU Device 0: "Ampere" with compute capability 8.6
+
+NPP Library Version 11.3.3
+  CUDA Driver  Version: 12.6
+  CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+imagefaceDetectionNPP opened: <./Lena.pgm> successfully.
+Input directory: <./data/anime/DungeonMeshi.pgm
+Output directory: <./output/anime/DungeonMeshi_detected.pgm
+Cascade filter directory: <./haarcascade_frontalface_default.xml
+Loading cascade classifier...
+Cascade classifier loaded...
+Grayscale image loaded successfully.
+Grayscale image dimensions: 2560 x 1690
+Face detection found 16 results.
+Time spent on detection: 1.339809334 seconds (1339809334 nanoseconds)
+Face detection result #1: x=721, y=1196, width=38, height=38
+Face detection result #2: x=1565, y=313, width=39, height=39
+Face detection result #3: x=1054, y=1544, width=55, height=55
+Face detection result #4: x=754, y=1019, width=50, height=50
+Face detection result #5: x=1618, y=1134, width=52, height=52
+Face detection result #6: x=1774, y=1220, width=66, height=66
+Face detection result #7: x=612, y=98, width=199, height=199
+Face detection result #8: x=836, y=563, width=62, height=62
+Face detection result #9: x=1754, y=155, width=97, height=97
+Face detection result #10: x=370, y=304, width=177, height=177
+Face detection result #11: x=498, y=175, width=134, height=134
+Face detection result #12: x=2303, y=1358, width=73, height=73
+Face detection result #13: x=656, y=2, width=156, height=156
+Face detection result #14: x=1710, y=155, width=286, height=286
+Face detection result #15: x=1981, y=1422, width=83, height=83
+Face detection result #16: x=1724, y=222, width=160, height=160
+Saving output to: ./output/anime/DungeonMeshi_detected.pgm
+Image saved as: ./output/anime/DungeonMeshi_detected.pgm

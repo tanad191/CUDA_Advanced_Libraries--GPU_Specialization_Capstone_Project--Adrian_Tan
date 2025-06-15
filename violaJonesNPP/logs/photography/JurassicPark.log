@@ -1,0 +1,28 @@
+./violaJonesFaceDetectionNPP Starting....
+GPU Device 0: "Ampere" with compute capability 8.6
+
+NPP Library Version 11.3.3
+  CUDA Driver  Version: 12.6
+  CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+imagefaceDetectionNPP opened: <./Lena.pgm> successfully.
+Input directory: <./data/photography/JurassicPark.pgm
+Output directory: <./output/photography/JurassicPark_detected.pgm
+Cascade filter directory: <./haarcascade_frontalface_default.xml
+Loading cascade classifier...
+Cascade classifier loaded...
+Grayscale image loaded successfully.
+Grayscale image dimensions: 1155 x 972
+Face detection found 9 results.
+Time spent on detection: 0.499370494 seconds (499370494 nanoseconds)
+Face detection result #1: x=710, y=127, width=46, height=46
+Face detection result #2: x=549, y=217, width=56, height=56
+Face detection result #3: x=539, y=263, width=56, height=56
+Face detection result #4: x=775, y=675, width=56, height=56
+Face detection result #5: x=689, y=262, width=116, height=116
+Face detection result #6: x=217, y=398, width=88, height=88
+Face detection result #7: x=515, y=464, width=112, height=112
+Face detection result #8: x=391, y=328, width=80, height=80
+Face detection result #9: x=336, y=102, width=116, height=116
+Saving output to: ./output/photography/JurassicPark_detected.pgm
+Image saved as: ./output/photography/JurassicPark_detected.pgm

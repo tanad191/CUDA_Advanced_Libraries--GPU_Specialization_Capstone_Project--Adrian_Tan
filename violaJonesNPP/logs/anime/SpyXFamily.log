@@ -1,0 +1,21 @@
+./violaJonesFaceDetectionNPP Starting....
+GPU Device 0: "Ampere" with compute capability 8.6
+
+NPP Library Version 11.3.3
+  CUDA Driver  Version: 12.6
+  CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+imagefaceDetectionNPP opened: <./Lena.pgm> successfully.
+Input directory: <./data/anime/SpyXFamily.pgm
+Output directory: <./output/anime/SpyXFamily_detected.pgm
+Cascade filter directory: <./haarcascade_frontalface_default.xml
+Loading cascade classifier...
+Cascade classifier loaded...
+Grayscale image loaded successfully.
+Grayscale image dimensions: 2100 x 1050
+Face detection found 2 results.
+Time spent on detection: 0.524776606 seconds (524776606 nanoseconds)
+Face detection result #1: x=662, y=326, width=568, height=568
+Face detection result #2: x=1316, y=316, width=296, height=296
+Saving output to: ./output/anime/SpyXFamily_detected.pgm
+Image saved as: ./output/anime/SpyXFamily_detected.pgm

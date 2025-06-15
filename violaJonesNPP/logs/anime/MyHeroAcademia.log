@@ -1,0 +1,22 @@
+./violaJonesFaceDetectionNPP Starting....
+GPU Device 0: "Ampere" with compute capability 8.6
+
+NPP Library Version 11.3.3
+  CUDA Driver  Version: 12.6
+  CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+imagefaceDetectionNPP opened: <./Lena.pgm> successfully.
+Input directory: <./data/anime/MyHeroAcademia.pgm
+Output directory: <./output/anime/MyHeroAcademia_detected.pgm
+Cascade filter directory: <./haarcascade_frontalface_default.xml
+Loading cascade classifier...
+Cascade classifier loaded...
+Grayscale image loaded successfully.
+Grayscale image dimensions: 1400 x 700
+Face detection found 3 results.
+Time spent on detection: 0.296501103 seconds (296501103 nanoseconds)
+Face detection result #1: x=611, y=103, width=44, height=44
+Face detection result #2: x=1071, y=544, width=80, height=80
+Face detection result #3: x=935, y=249, width=247, height=247
+Saving output to: ./output/anime/MyHeroAcademia_detected.pgm
+Image saved as: ./output/anime/MyHeroAcademia_detected.pgm

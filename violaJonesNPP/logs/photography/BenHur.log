@@ -1,0 +1,51 @@
+./violaJonesFaceDetectionNPP Starting....
+GPU Device 0: "Ampere" with compute capability 8.6
+
+NPP Library Version 11.3.3
+  CUDA Driver  Version: 12.6
+  CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+imagefaceDetectionNPP opened: <./Lena.pgm> successfully.
+Input directory: <./data/photography/BenHur.pgm
+Output directory: <./output/photography/BenHur_detected.pgm
+Cascade filter directory: <./haarcascade_frontalface_default.xml
+Loading cascade classifier...
+Cascade classifier loaded...
+Grayscale image loaded successfully.
+Grayscale image dimensions: 3500 x 2280
+Face detection found 32 results.
+Time spent on detection: 2.669452839 seconds (2669452839 nanoseconds)
+Face detection result #1: x=803, y=2205, width=55, height=55
+Face detection result #2: x=582, y=1507, width=46, height=46
+Face detection result #3: x=781, y=1845, width=52, height=52
+Face detection result #4: x=672, y=385, width=64, height=64
+Face detection result #5: x=3144, y=1943, width=64, height=64
+Face detection result #6: x=1895, y=540, width=126, height=126
+Face detection result #7: x=1466, y=347, width=103, height=103
+Face detection result #8: x=2328, y=485, width=64, height=64
+Face detection result #9: x=351, y=1591, width=62, height=62
+Face detection result #10: x=2812, y=1489, width=59, height=59
+Face detection result #11: x=790, y=401, width=204, height=204
+Face detection result #12: x=3300, y=1898, width=108, height=108
+Face detection result #13: x=781, y=2161, width=81, height=81
+Face detection result #14: x=2733, y=607, width=267, height=267
+Face detection result #15: x=683, y=1915, width=110, height=110
+Face detection result #16: x=2416, y=1375, width=98, height=98
+Face detection result #17: x=2209, y=2144, width=97, height=97
+Face detection result #18: x=510, y=500, width=100, height=100
+Face detection result #19: x=2659, y=2085, width=96, height=96
+Face detection result #20: x=1274, y=465, width=147, height=147
+Face detection result #21: x=1773, y=551, width=163, height=163
+Face detection result #22: x=1200, y=1082, width=87, height=87
+Face detection result #23: x=2144, y=787, width=127, height=127
+Face detection result #24: x=2310, y=969, width=165, height=165
+Face detection result #25: x=1033, y=1704, width=100, height=100
+Face detection result #26: x=2470, y=1168, width=252, height=252
+Face detection result #27: x=1332, y=1016, width=424, height=424
+Face detection result #28: x=1850, y=766, width=238, height=238
+Face detection result #29: x=1606, y=612, width=191, height=191
+Face detection result #30: x=62, y=612, width=53, height=53
+Face detection result #31: x=2110, y=798, width=102, height=102
+Face detection result #32: x=1232, y=1194, width=98, height=98
+Saving output to: ./output/photography/BenHur_detected.pgm
+Image saved as: ./output/photography/BenHur_detected.pgm

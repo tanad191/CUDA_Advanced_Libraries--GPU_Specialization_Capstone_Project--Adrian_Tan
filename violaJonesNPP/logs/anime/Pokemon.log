@@ -1,0 +1,28 @@
+./violaJonesFaceDetectionNPP Starting....
+GPU Device 0: "Ampere" with compute capability 8.6
+
+NPP Library Version 11.3.3
+  CUDA Driver  Version: 12.6
+  CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+imagefaceDetectionNPP opened: <./Lena.pgm> successfully.
+Input directory: <./data/anime/Pokemon.pgm
+Output directory: <./output/anime/Pokemon_detected.pgm
+Cascade filter directory: <./haarcascade_frontalface_default.xml
+Loading cascade classifier...
+Cascade classifier loaded...
+Grayscale image loaded successfully.
+Grayscale image dimensions: 1200 x 1529
+Face detection found 9 results.
+Time spent on detection: 0.770654343 seconds (770654343 nanoseconds)
+Face detection result #1: x=49, y=191, width=59, height=59
+Face detection result #2: x=94, y=192, width=57, height=57
+Face detection result #3: x=293, y=504, width=95, height=95
+Face detection result #4: x=518, y=249, width=110, height=110
+Face detection result #5: x=95, y=280, width=76, height=76
+Face detection result #6: x=714, y=337, width=61, height=61
+Face detection result #7: x=840, y=694, width=125, height=125
+Face detection result #8: x=68, y=417, width=189, height=189
+Face detection result #9: x=337, y=617, width=119, height=119
+Saving output to: ./output/anime/Pokemon_detected.pgm
+Image saved as: ./output/anime/Pokemon_detected.pgm

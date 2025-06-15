@@ -1,0 +1,22 @@
+./violaJonesFaceDetectionNPP Starting....
+GPU Device 0: "Ampere" with compute capability 8.6
+
+NPP Library Version 11.3.3
+  CUDA Driver  Version: 12.6
+  CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+imagefaceDetectionNPP opened: <./Lena.pgm> successfully.
+Input directory: <./data/anime/Naruto.pgm
+Output directory: <./output/anime/Naruto_detected.pgm
+Cascade filter directory: <./haarcascade_frontalface_default.xml
+Loading cascade classifier...
+Cascade classifier loaded...
+Grayscale image loaded successfully.
+Grayscale image dimensions: 1200 x 630
+Face detection found 3 results.
+Time spent on detection: 0.279100932 seconds (279100932 nanoseconds)
+Face detection result #1: x=244, y=207, width=38, height=38
+Face detection result #2: x=344, y=83, width=68, height=68
+Face detection result #3: x=831, y=503, width=70, height=70
+Saving output to: ./output/anime/Naruto_detected.pgm
+Image saved as: ./output/anime/Naruto_detected.pgm

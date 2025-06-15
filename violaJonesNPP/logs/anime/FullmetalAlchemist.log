@@ -1,0 +1,21 @@
+./violaJonesFaceDetectionNPP Starting....
+GPU Device 0: "Ampere" with compute capability 8.6
+
+NPP Library Version 11.3.3
+  CUDA Driver  Version: 12.6
+  CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+imagefaceDetectionNPP opened: <./Lena.pgm> successfully.
+Input directory: <./data/anime/FullmetalAlchemist.pgm
+Output directory: <./output/anime/FullmetalAlchemist_detected.pgm
+Cascade filter directory: <./haarcascade_frontalface_default.xml
+Loading cascade classifier...
+Cascade classifier loaded...
+Grayscale image loaded successfully.
+Grayscale image dimensions: 1200 x 675
+Face detection found 2 results.
+Time spent on detection: 0.172635528 seconds (172635528 nanoseconds)
+Face detection result #1: x=825, y=515, width=56, height=56
+Face detection result #2: x=480, y=449, width=189, height=189
+Saving output to: ./output/anime/FullmetalAlchemist_detected.pgm
+Image saved as: ./output/anime/FullmetalAlchemist_detected.pgm
